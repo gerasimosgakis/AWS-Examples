@@ -14,7 +14,7 @@ tasks:
     before: |
       sudo apt-get install tree
   # https://learn.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.5
-  - name: powershell |
+  - name: powershell
     before: |
       sudo apt-get update
       sudo apt-get install -y wget apt-transport-https software-properties-common
