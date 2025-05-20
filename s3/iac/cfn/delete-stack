@@ -4,5 +4,5 @@ echo "== delete s3 bucket via CFN"
 STACK_NAME="cfn-s3-simple"
 
 aws cloudformation delete-stack \
---region us-west-2 \
+--region eu-west-2 \
 --stack-name $STACK_NAME

@@ -6,5 +6,5 @@ STACK_NAME="cfn-s3-simple"
 aws cloudformation deploy \
 --template-file template.yaml \
 --no-execute-changeset \
---region us-west-2 \
+--region eu-west-2 \
 --stack-name $STACK_NAME \
